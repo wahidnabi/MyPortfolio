@@ -1,0 +1,88 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.item-head>div{
+    flex: 1;
+   border: 1px solid black;
+    
+  }
+  .item-head{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    margin-top: 3.5em;
+    justify-content: space-around;
+   
+}
+.header-contacts{
+    width: 80%;
+    margin: auto;
+}
+    .para>li>a:hover{
+        background-color: aquamarine;
+        
+    }
+
+.cont-h{
+    text-align: center;
+    border-bottom: 2px solid blue;
+}
+.para li{
+    display: inline-block;
+}
+.para li a{
+text-decoration: none;
+font-size: 20px;
+}
+.item1>address{
+    margin-top: .6em;
+    padding: 10px;
+}
+.item3>textarea{
+    margin: .5em .5em ;
+}
+.item2>input{
+    display: block;
+    padding: 1em 1.5em;
+    width: 80%;
+    margin-top: 5px;
+    outline: none;
+    border: none;
+    background-color: azure;
+}
+
+.footer-area{
+    width: 90%;
+    display: flex;
+    color: white;
+    background: url(images/home-img1.jpg);
+    margin: auto;
+    margin-top: 3.5em;
+    justify-content: space-around;
+}
+.footer-area>div{
+    
+    margin: 0 10px;
+    width: 29%;
+   
+}
+
+.middle{
+    width:20%;
+    display: inline;
+    margin-left: -5px;
+}
+.middle>p{
+    padding: .7em;
+}
+.footer-right{
+    
+    border: 2px solid black;
+}
+.footer-middle>input{
+    padding: .8em;
+    
+}
